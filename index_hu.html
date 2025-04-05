@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="YOUR_GOOGLE_SITE_VERIFICATION_CODE" />
+    <title>Kerisan - Prémium gallyaprítók | Ada</title>
+
+    <meta name="description" content="A zombori Kerisan kiváló minőségű gallyaprító gépeket gyárt. Gépeink megbízhatóak, hatékonyak és megkönnyítik a fával való munkát. Vegye fel velünk a kapcsolatot!">
+
+    <meta property="og:title" content="Kerisan - Prémium gallyaprítók | Ada">
+    <meta property="og:description" content="A zombori Kerisan kiváló minőségű gallyaprító gépeket gyárt. Gépeink megbízhatóak, hatékonyak és megkönnyítik a fával való munkát. Vegye fel velünk a kapcsolatot!">
+    <meta property="og:image" content="Seckalica za grane Kerisan.png">
+    <meta property="og:url" content="YOUR_WEBSITE_URL_HERE_HU">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kerisan - Prémium gallyaprítók | Ada">
+    <meta name="twitter:description" content="A zombori Kerisan kiváló minőségű gallyaprító gépeket gyárt. Gépeink megbízhatóak, hatékonyak és megkönnyítik a fával való munkát. Vegye fel velünk a kapcsolatot!">
+    <meta name="twitter:image" content="Seckalica za grane Kerisan.png">
+
+    <title>Kerisan - Prémium gallyaprítók</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            margin: 0 10vw;
+            font-size: larger;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .text {
+            width: 50%;
+            padding: 20px;
+            text-align: left;
+        }
+        .image {
+            width: 50%;
+        }
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: #0051ff;
+            color: white;
+        }
+
+        .language-switch {
+            padding: 10px;
+        }
+        .language-switch a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+            transition: background-color 0.3s ease;
+        }
+        .language-switch a:hover {
+            background-color: rgba(255, 255, 255, 0.4); /* More opaque on hover */
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #0051ff;
+            color: white;
+        }
+
+        .footer a {
+            color: #eeff00; /* Light gray or any other contrasting color */
+
+        }
+        .footer a:hover {
+            color: #ffffff; /* Optional: Change color on hover */
+        }
+
+        .contact {
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+        }
+        .contact button {
+            background-color: #1877F2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .contact button:hover {
+            background-color: #155bba;
+        }
+
+        .share-buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .share-btn {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .share-btn.fb {
+            background-color: #1877F2; /* Facebook Blue */
+        }
+
+        .share-btn.wa {
+            background-color: #25D366; /* WhatsApp Green */
+        }
+
+        .share-btn.vb {
+            background-color: #665CA0; /* Viber Purple */
+        }
+
+        .share-btn.ig {
+            background-color: #E4405F; /* Instagram Pink */
+        }
+
+        .share-btn:hover {
+            opacity: 0.8;
+        }
+
+        .specifications-section {
+            padding: 50px;
+            background-color: #f9f9f9;
+        }
+
+        .specifications-grid {
+            display: grid;
+            grid-template-columns: 1fr; /* Default to one column for mobile */
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) { /* Apply two-column layout for desktop */
+            .specifications-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .specification-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Keep margin for spacing in single-column layout */
+        }
+
+        @media (min-width: 768px) {
+            .specification-item {
+                margin-bottom: 0; /* Remove extra bottom margin in two-column layout */
+            }
+        }
+
+        .specification-item h3 {
+            margin-top: 0;
+        }
+
+        .specification-item ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .specification-item ul li {
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 5px;
+        }
+
+        .specification-item ul li:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+
+            margin: 0 0;
+
+        }
+            .section {
+                flex-direction: column;
+                text-align: center;
+                padding: 20px;
+            }
+            .text, .image {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+    <link rel="alternate" href="index.html" hreflang="sr">
+    <link rel="alternate" href="index_hu.html" hreflang="hu" />
+</head>
+<body>
+    <div class="header">
+        <h1>Kerisan - Prémium gallyaprítók | Ada</h1>
+        
+        <div class="language-switch">
+            <a href="index.html" lang="sr">Srpski</a>
+            <span>|</span>
+            <a href="index_hu.html" lang="hu">Magyar</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="text">
+            <h2>Rólunk</h2>
+            <p>A Kerisan egy adai családi vállalkozás, amely kiváló minőségű gallyaprító gépek gyártásával foglalkozik. A gépiparban szerzett sokéves tapasztalatunknak köszönhetően megértjük ügyfeleink igényeit, és megbízható és hatékony megoldásokat kínálunk számukra a munkájukhoz.</p>
+            <p>Gépeinket úgy terveztük, hogy tartósak, egyszerűen használhatóak legyenek, és maximális teljesítményt nyújtsanak különféle fafajták aprításakor. Elkötelezettek vagyunk a minőség iránt és termékeink folyamatos fejlesztése iránt.</p>
+            <p>Büszkén vettünk részt az Újvidéki Mezőgazdasági Vásáron, ahol nagy büszkeséggel mutattuk be gépeinket! (lásd a képet)</p>
+        </div>
+        <div class="image">
+            <img src="Kerisan Secka za grane.jpg" alt="Kerisan gépek gyártása">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="image">
+            <img src="Seckalica za grane Kerisan.png" alt="Kerisan faaprító gép">
+        </div>
+        <div class="text">
+            <h2>Termékeink</h2>
+            <p>Kínálatunkban különféle gallyaprító modellek találhatók, amelyek háztartási használatra, kisebb műhelyekbe és professzionális felhasználók számára is alkalmasak.</p>
+            <p>Gépeinket a következők jellemzik:</p>
+            <ul>
+                <li>Nagy vágási pontosság</li>
+                <li>Strapabíró szerkezet</li>
+                <li>Egyszerű karbantartás</li>
+                <li>Biztonságos működés</li>
+                <li>Hatékony munka és időmegtakarítás</li>
+            </ul>
+            <p>Vegye fel velünk a kapcsolatot modelljeinkkel és specifikációinkkal kapcsolatos további információkért.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="text">
+            <h2>Gépeink meghajtása</h2>
+            <p>Gépeink különféle meghajtásokkal érhetők el az Ön igényeitől és szükségleteitől függően:</p>
+            <ul>
+                <li>Elektromos motor</li>
+                <li>Dízelmotor</li>
+                <li>Kardántengely (traktorhoz)</li>
+            </ul>
+        </div>
+        <div class="text">
+            <h2>Kínálatunkban szereplő gépmodellek:</h2>
+            <ul>
+                <li>Woodblade Mini</li>
+                <li>Woodblade 50</li>
+                <li>Woodblade 70 (elevatorral vagy anélkül)</li>
+                <li>Woodblade 100 (elevatorral vagy anélkül)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="specifications-section">
+        <h2>Gépeink műszaki adatai</h2>
+        <div class="specifications-grid">
+            <div class="specification-item">
+                <h3>Woodblade Mini</h3>
+                <ul>
+                    <li>Fordulatszám: 540 RPM</li>
+                    <li>Ajánlott traktorteljesítmény: 30 LE</li>
+                    <li>Kések száma: 4</li>
+                    <li>Maximális vágható átmérő: 4 cm</li>
+                    <li>Súly: 35 kg</li>
+                    <li>Tengelyek száma: 1</li>
+                    <li>Kapacitás/óra: 1.5 m³</li>
+                </ul>
+            </div>
+
+            <div class="specification-item">
+                <h3>Woodblade 50</h3>
+                <ul>
+                    <li>Fordulatszám: 540 RPM</li>
+                    <li>Minimális szükséges traktorteljesítmény: 15 LE</li>
+                    <li>Ajánlott traktorteljesítmény: 30 LE</li>
+                    <li>Dupla kések száma: 8</li>
+                    <li>Maximális vágható átmérő: 6-8 cm</li>
+                    <li>Súly: 55 kg</li>
+                    <li>Tengelyek száma: 3</li>
+                    <li>Kapacitás/óra: 2 m³</li>
+                    <li>Vonóhoroggal rendelkezik: Igen</li>
+                </ul>
+            </div>
+
+            <div class="specification-item">
+                <h3>Woodblade 70</h3>
+                <ul>
+                    <li>Fordulatszám: 540 RPM</li>
+                    <li>Minimális szükséges traktorteljesítmény: 25 LE</li>
+                    <li>Ajánlott traktorteljesítmény: 40 LE</li>
+                    <li>Dupla kések száma: 8</li>
+                    <li>Maximális vágható átmérő: 8 cm</li>
+                    <li>Súly: 175-295 kg</li>
+                    <li>Tengelyek száma: 3</li>
+                    <li>Behúzó panel hossza: 6-10 cm</li>
+                    <li>Kapacitás/óra: 5 m³</li>
+                    <li>Vonóhoroggal rendelkezik: Igen</li>
+                    <li>További opciók:
+                        <ul>
+                            <li>3.2 m-es elevator</li>
+                            <li>55 kg-os lendkeréksúly</li>
+                            <li>Kardántengely</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="specification-item">
+                <h3>Woodblade 100</h3>
+                <ul>
+                    <li>Fordulatszám: 540 RPM</li>
+                    <li>Minimális szükséges traktorteljesítmény: 50 LE</li>
+                    <li>Ajánlott traktorteljesítmény: 75 LE</li>
+                    <li>Dupla kések száma: 8</li>
+                    <li>Maximális vágható átmérő: 8-12 cm</li>
+                    <li>Súly: 350-500 kg</li>
+                    <li>Tengelyek száma: 3</li>
+                    <li>Behúzó panel hossza: 8-12 cm</li>
+                    <li>Kapacitás/óra: 10 m³</li>
+                    <li>Vonóhoroggal rendelkezik: Igen</li>
+                    <li>Festett rész hossza: 6.6 m</li>
+                    <li>További opciók:
+                        <ul>
+                            <li>3.2 m-es elevator</li>
+                            <li>85 kg-os lendkeréksúly</li>
+                            <li>Kardántengely</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Lépjen kapcsolatba velünk</h2>
+        <p>Ha bármilyen kérdése van termékeinkkel, árainkkal vagy megrendeléseivel kapcsolatban, forduljon hozzánk bizalommal.</p>
+        <p>Kapcsolattartó: Kelemen Rihard</p>
+        <p>📍 Cím: Bogdanfi Šandor 24, Ada, Szerbia</p>
+        <p>📞 Telefon: <a href="tel:+381691131003">+381 69 113 1003</a></p>
+        <p>Nincs hivatalos nyitvatartásunk, hívjon bátran!</p>
+
+        <a href="https://www.facebook.com/kerisan.kelemenrihard?locale=hu_HU" target="_blank"><button>Látogassa meg Facebook oldalunkat</button></a>
+
+        <div class="share-buttons">
+            <p>Ossza meg oldalunkat:</p>
+            <a id="shareFacebook" class="share-btn fb" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=YOUR_WEBSITE_URL_HERE_HU">📘 Facebook</a>
+            <a id="shareWhatsApp" class="share-btn wa" target="_blank" href="https://wa.me/?text=Nézze%20meg%20a%20Kerisan%20gallyaprító%20gépeit:%20YOUR_WEBSITE_URL_HERE_HU">📱 WhatsApp</a>
+            <a id="shareViber" class="share-btn vb" target="_blank" href="viber://forward?text=Nézze%20meg%20a%20Kerisan%20gallyaprító%20gépeit:%20YOUR_WEBSITE_URL_HERE_HU">📩 Viber</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Weboldal készítője: <a href="https://www.linkedin.com/in/petar-skrbic/" target="_blank">Petar Škrbić</a></p>
+        <p>© 2025 Kerisan. Minden jog fenntartva.</p>
+    </div>
+</body>
+</html>
